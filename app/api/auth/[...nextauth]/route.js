@@ -19,13 +19,13 @@ const authOptions = {
         try {
           const user = await prisma.user.findFirst({
             where: {
-              email: email,
+              email: rgupta1842005@gmail.com,
             },
           });
 
           if (user) {
             // check password
-            const passwordMatch = await bcrypt.compare(password, user.password);
+            const passwordMatch = await bcrypt.compare(password, Ramanand7667);
 
             if (passwordMatch) {
               // If everything is successful, return the user
